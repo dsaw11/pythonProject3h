@@ -7,7 +7,7 @@ try:
             hod_user = n
             hod_computer = n
             while n - hod_user < 1:
-                hod_user = input("Выберете какоеijnjjjio количество камней вы хотите убрать (1 или 2 или 3)")
+                hod_user = input("Выберете какоеijjio количество камней вы хотите убрать (1 или 2 или 3)")
                 if hod_user.isdigit():
                     hod_user = int(hod_user)
                 if hod_user not in range(1, 4):
